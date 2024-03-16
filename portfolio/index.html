@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="images/developer.png" type="image/png" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Portfolio Project</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h2>Ekundayo Sulaimon</h2>
+      </div>
+      <nav>
+        <button class="mobile">
+          <span class="material-symbols-outlined"> menu </span>
+        </button>
+        <ul>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#about">About me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="#contact">Contact me</a></li>
+          <li>
+            <a href="https://en.bc.fi/">About BCH</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main-container">
+      <div class="hero-image">
+        <div class="hero-banner">
+          <h1>Welcome to my Portfolio</h1>
+        </div>
+      </div>
+
+      <section id="project" class="project-section">
+        <h1>Projects</h1>
+        <div class="project">
+          <div class="project-group">
+            <img src="images/html-css.jpg" alt="" />
+            <h3>Lorem, ipsum dolor sit.</h3>
+            <p>HTML, CSS and JavaScript</p>
+            <a href="#">See more</a>
+          </div>
+          <div class="project-group">
+            <img src="images/ui-ux.jpg" alt="" />
+            <h3>Lorem, ipsum dolor sit.</h3>
+            <p>UI/UX design layouts</p>
+            <a href="#">See more</a>
+          </div>
+          <div class="project-group">
+            <img src="images/reactjs.jpg" alt="" />
+            <h3>Lorem, ipsum dolor sit.</h3>
+            <p>ReactJS, NodeJS</p>
+            <a href="#">See more</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about">
+        <div class="about-me">
+          <h1>About me</h1>
+          <div class="about-me-container">
+            <img src="images/wakeme.jpg" alt="" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+              facilis quas labore ad dolorum consectetur obcaecati architecto
+              ipsum voluptatum modi, soluta quaerat dolor debitis atque!
+              Inventore quidem quam aliquid sed. Dolores, id. Praesentium nihil
+              sit doloribus sunt quo ducimus suscipit? Dolorem quas nulla
+              repellendus veniam, dolores ex voluptas porro cumque. A
+              reiciendis, qui error nostrum molestias distinctio autem! Unde,
+              optio? Adipisci, excepturi voluptas in repudiandae officiis
+              voluptatum nam maxime ullam enim illum rerum eum eos, deserunt,
+              obcaecati quas. Vel hic unde mollitia maxime voluptate, deserunt
+              nemo vero eveniet possimus fugit? Modi optio possimus eos
+              laboriosam cum? Vero cupiditate mollitia provident fugiat, nihil
+              veniam corporis quibusdam harum, repellendus consectetur veritatis
+              perferendis. Distinctio eos modi explicabo saepe repellendus
+              eligendi sed culpa est!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills">
+        <div class="skill">
+          <h1>Skills</h1>
+          <div class="skill-container">
+            <div class="skill-box">
+              <div class="box-div">
+                <img src="images/html5.svg" alt="html-img" />
+              </div>
+              <div class="box-div">
+                <p>HTML5</p>
+              </div>
+              <div class="progress-bar">
+                <div class="progress1"></div>
+              </div>
+            </div>
+            <div class="skill-box">
+              <div class="box-div">
+                <img src="images/css3.svg" alt="css-img" />
+              </div>
+              <div class="box-div">
+                <p>CSS</p>
+              </div>
+              <div class="progress-bar">
+                <div class="progress2"></div>
+              </div>
+            </div>
+            <div class="skill-box">
+              <div class="box-div content">
+                <img src="images/calculator-solid.svg" alt="calculator-img" />
+              </div>
+              <div class="box-div content">
+                <p>Teaching</p>
+              </div>
+              <div class="progress-bar">
+                <div class="progress3"></div>
+              </div>
+            </div>
+            <div class="skill-box">
+              <div class="box-div content">
+                <img src="images/wheat.svg" alt="wheat-img" />
+              </div>
+              <div class="box-div content">
+                <p>Coaching</p>
+              </div>
+              <div class="progress-bar">
+                <div class="progress4"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="contact" class="footer">
+      <div class="container">
+        <div class="form-wrap">
+          <h3>Contact me</h3>
+          <form id="contact-form">
+            <div class="form-group">
+              <label for="name">Your name</label>
+              <input type="text" id="name" name="name" />
+            </div>
+            <div class="form-group">
+              <label for="email">Your email</label>
+              <input type="email" id="email" name="email" />
+            </div>
+            <div class="form-group">
+              <label for="message">Message me</label>
+              <textarea
+                id="message"
+                name="message"
+                cols="30"
+                rows="3"
+              ></textarea>
+            </div>
+            <button type="submit">SEND MESSAGE</button>
+          </form>
+        </div>
+      </div>
+      <div class="backToTop">
+        <span class="material-symbols-outlined"> arrow_upward </span>
+      </div>
+      <p>Copyright&copy; ESO 2024</p>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
